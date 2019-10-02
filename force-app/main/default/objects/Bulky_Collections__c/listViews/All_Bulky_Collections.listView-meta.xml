@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Bulky_Collections</fullName>
+    <columns>NAME</columns>
+    <columns>Bulky_Collection_Slot__c</columns>
+    <columns>Number_of_Items__c</columns>
+    <columns>Bulky_Item_1__c</columns>
+    <columns>Bulky_Item_2__c</columns>
+    <columns>Bulky_Item_3__c</columns>
+    <columns>Bulky_Item_4__c</columns>
+    <columns>Bulky_Items_Other__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Bulky Collections</label>
+</ListView>

@@ -1,0 +1,44 @@
+<aura:component controller="RCCBulkyController" implements="lightning:availableForFlowScreens" access="global">
+
+    <aura:attribute name="bulkyDates" type="List" default=""/>
+    <aura:attribute name="AddressId" type="string" access="global"/>
+
+     <aura:handler name="init" value="{!this}" action="{!c.DoInit}"/>
+   
+    
+    <lightning:card title="Previous Bulky Collections" iconName="standard:event">
+ 
+    
+    
+<table class="slds-table slds-table_bordered slds-max-medium-table_stacked-horizontal">
+<thead>
+<tr class="slds-text-title_caps">
+<th scope="col">
+<div class="slds-truncate" title="Date">Date</div>
+</th>
+    <th scope="col">
+<div class="slds-truncate" title="Option">Reference</div>
+</th>
+    </tr>
+</thead>
+
+        
+<tbody>
+<aura:iteration items="{!v.bulkyDates}" var="bulky">
+    <tr class="slds-hint-parent">
+ 	   <th scope="row" data-label="Date">
+    		<div class="slds-truncate" title="Date"><lightning:formattedDateTime  title="Case Opened" year="numeric" month="short" day="2-digit" weekday="long" value="{!bulky.Bulky_Collection_Slot__r.Collection_Date__c}" /></div>
+    	</th>
+        <td data-label="More Details">
+    		<div class="slds-truncate" title="">
+				{!bulky.Name}
+        	</div>
+    	</td>    
+    </tr>
+  </aura:iteration>
+
+    </tbody>
+</table>      
+   
+    </lightning:card>
+</aura:component>

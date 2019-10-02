@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Filled_Slots__c</fullName>
+    <description>Shows number of filled slots for this date</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Shows number of filled slots for this date</inlineHelpText>
+    <label>Number of Visits</label>
+    <summaryForeignKey>Bulky_Collections__c.Bulky_Collection_Slot__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

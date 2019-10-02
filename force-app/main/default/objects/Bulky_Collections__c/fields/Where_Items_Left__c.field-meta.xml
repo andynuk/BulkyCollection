@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Where_Items_Left__c</fullName>
+    <externalId>false</externalId>
+    <label>Where Items Left</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Front of property on pavement</fullName>
+                <default>false</default>
+                <label>Front of property on pavement</label>
+            </value>
+            <value>
+                <fullName>Front Garden</fullName>
+                <default>false</default>
+                <label>Front Garden</label>
+            </value>
+            <value>
+                <fullName>Rear Garden with free access</fullName>
+                <default>false</default>
+                <label>Rear Garden with free access</label>
+            </value>
+            <value>
+                <fullName>Rear Garden with gate access</fullName>
+                <default>false</default>
+                <label>Rear Garden with gate access</label>
+            </value>
+            <value>
+                <fullName>Side Alleyway</fullName>
+                <default>false</default>
+                <label>Side Alleyway</label>
+            </value>
+            <value>
+                <fullName>On Driveway</fullName>
+                <default>false</default>
+                <label>On Driveway</label>
+            </value>
+            <value>
+                <fullName>Communal Area</fullName>
+                <default>false</default>
+                <label>Communal Area</label>
+            </value>
+            <value>
+                <fullName>Assisted</fullName>
+                <default>false</default>
+                <label>I need an Assisted Collection</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

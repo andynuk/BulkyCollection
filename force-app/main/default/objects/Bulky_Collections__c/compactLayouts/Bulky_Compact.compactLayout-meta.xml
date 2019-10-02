@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bulky_Compact</fullName>
+    <fields>Assisted_Collection__c</fields>
+    <fields>Name</fields>
+    <fields>Bulky_Item_1__c</fields>
+    <fields>Bulky_Item_2__c</fields>
+    <fields>Bulky_Item_3__c</fields>
+    <fields>Bulky_Item_4__c</fields>
+    <fields>Where_Items_Left__c</fields>
+    <fields>Number_of_Items__c</fields>
+    <label>Bulky Compact</label>
+</CompactLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Bulky_Slots</fullName>
+    <columns>NAME</columns>
+    <columns>Collection_Date__c</columns>
+    <columns>Number_of_Filled_Slots__c</columns>
+    <columns>Number_of_Assisted_Visits__c</columns>
+    <columns>Number_of_Non_Assisted_Visits__c</columns>
+    <columns>In_Past__c</columns>
+    <columns>Maximum_Assisted_Collections__c</columns>
+    <columns>Maximum_Normal_Collections__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>In_Past__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>All Bulky Slots</label>
+</ListView>
