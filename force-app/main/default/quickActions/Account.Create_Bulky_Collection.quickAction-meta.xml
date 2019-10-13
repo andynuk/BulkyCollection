@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used to start flow for bulky collection.</description>
+    <flowDefinition>Internal_Bulky_Collection</flowDefinition>
+    <label>Create Bulky Collection</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>
