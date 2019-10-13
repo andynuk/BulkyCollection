@@ -1,0 +1,6 @@
+<design:component>
+	<design:attribute name="selectedBulkyDate" label="Selected Date Id" /> 	
+	<design:attribute name="Assisted" label="Assisted" /> 	
+	<design:attribute name="selectedAssisted" label="selectedAssisted" /> 	
+	<design:attribute name="viewOnly" label="viewOnly" /> 	
+</design:component>

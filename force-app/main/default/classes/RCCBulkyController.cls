@@ -26,7 +26,7 @@ public class RCCBulkyController {
         return bulkyInfo;
     }
     
-    
+    /*
     @AuraEnabled
     public static void sendBulkyReminder(Id BulkyId) {
         List<Bulky_Collections__c> bulkyInfo = GetBulkyReminder(BulkyId);
@@ -86,6 +86,9 @@ public class RCCBulkyController {
                
            }
        
-       
 
-    }}
+    }
+     */  
+    
+    
+    }

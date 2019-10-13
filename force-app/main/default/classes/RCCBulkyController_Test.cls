@@ -32,6 +32,7 @@ public class RCCBulkyController_Test {
         );
 		insert caseObj;
         
+        
         Bulky_Collections__c bulky = new Bulky_Collections__c(
         Where_Items_Left__c = 'Front Garden', 
         Bulky_Item_1__c ='Bath',
@@ -48,6 +49,7 @@ public class RCCBulkyController_Test {
         
         List<Bulky_Collections__c> test2 = RCCBulkyController.GetBulkyReminder(bulky.Id);
         
-        RCCBulkyController.sendBulkyReminder(bulky.Id);
+        //RCCBulkyController.sendBulkyReminder(bulky.Id);
+        
      }
 }

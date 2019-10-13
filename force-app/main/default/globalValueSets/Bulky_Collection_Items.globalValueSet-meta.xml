@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>--Please select--</fullName>
+        <default>false</default>
+        <label>--Please select--</label>
+    </customValue>
+    <customValue>
+        <fullName>Armchair</fullName>
+        <default>false</default>
+        <label>Armchair</label>
+    </customValue>
+    <customValue>
+        <fullName>Bag of Household Waste</fullName>
+        <default>false</default>
+        <label>Bag of Household Waste (up to 2 bags)</label>
+    </customValue>
+    <customValue>
+        <fullName>Bath</fullName>
+        <default>false</default>
+        <label>Bath</label>
+    </customValue>
+    <customValue>
+        <fullName>Bed base only (double)</fullName>
+        <default>false</default>
+        <label>Bed base only (double)</label>
+    </customValue>
+    <customValue>
+        <fullName>Bed base only (single)</fullName>
+        <default>false</default>
+        <label>Bed base only (single)</label>
+    </customValue>
+    <customValue>
+        <fullName>Bed, base, headboard and mattress (double)</fullName>
+        <default>false</default>
+        <label>Bed, base, headboard and mattress (double)</label>
+    </customValue>
+    <customValue>
+        <fullName>Bed, base, headboard and mattress (single)</fullName>
+        <default>false</default>
+        <label>Bed, base, headboard and mattress (single)</label>
+    </customValue>
+    <customValue>
+        <fullName>Bedside Cabinet</fullName>
+        <default>false</default>
+        <label>Bedside Cabinet</label>
+    </customValue>
+    <customValue>
+        <fullName>Bicycle/Bike</fullName>
+        <default>false</default>
+        <label>Bicycle/Bike</label>
+    </customValue>
+    <customValue>
+        <fullName>Blind</fullName>
+        <default>false</default>
+        <label>Blind</label>
+    </customValue>
+    <customValue>
+        <fullName>Bookcase</fullName>
+        <default>false</default>
+        <label>Bookcase</label>
+    </customValue>
+    <customValue>
+        <fullName>Bundle of Wood</fullName>
+        <default>false</default>
+        <label>Bundle of Wood</label>
+    </customValue>
+    <customValue>
+        <fullName>Cardboard</fullName>
+        <default>false</default>
+        <label>Cardboard</label>
+    </customValue>
+    <customValue>
+        <fullName>Carpet</fullName>
+        <default>false</default>
+        <label>Carpet</label>
+    </customValue>
+    <customValue>
+        <fullName>Carpet Gripper Rods</fullName>
+        <default>false</default>
+        <label>Carpet Gripper Rods</label>
+    </customValue>
+    <customValue>
+        <fullName>Chest of drawers</fullName>
+        <default>false</default>
+        <label>Chest of drawers</label>
+    </customValue>
+    <customValue>
+        <fullName>Child&#39;s Plastic Playhouse</fullName>
+        <default>false</default>
+        <label>Child&#39;s Plastic Playhouse</label>
+    </customValue>
+    <customValue>
+        <fullName>Coffee Table</fullName>
+        <default>false</default>
+        <label>Coffee Table</label>
+    </customValue>
+    <customValue>
+        <fullName>Computer Monitor/Screen</fullName>
+        <default>false</default>
+        <label>Computer Monitor/Screen</label>
+    </customValue>
+    <customValue>
+        <fullName>Computer Tower/Base</fullName>
+        <default>false</default>
+        <label>Computer Tower/Base</label>
+    </customValue>
+    <customValue>
+        <fullName>Curtains</fullName>
+        <default>false</default>
+        <label>Curtains</label>
+    </customValue>
+    <customValue>
+        <fullName>Desk</fullName>
+        <default>false</default>
+        <label>Desk</label>
+    </customValue>
+    <customValue>
+        <fullName>Dining Chair</fullName>
+        <default>false</default>
+        <label>Dining Chair</label>
+    </customValue>
+    <customValue>
+        <fullName>Dining Table</fullName>
+        <default>false</default>
+        <label>Dining Table</label>
+    </customValue>
+    <customValue>
+        <fullName>Dishwasher</fullName>
+        <default>false</default>
+        <label>Dishwasher</label>
+    </customValue>
+    <customValue>
+        <fullName>Door - Internal</fullName>
+        <default>false</default>
+        <label>Door - Internal</label>
+    </customValue>
+    <customValue>
+        <fullName>Dressing Table</fullName>
+        <default>false</default>
+        <label>Dressing Table</label>
+    </customValue>
+    <customValue>
+        <fullName>Fence Panel - Broken</fullName>
+        <default>false</default>
+        <label>Fence Panel - Broken</label>
+    </customValue>
+    <customValue>
+        <fullName>Fence Panel - Undamaged</fullName>
+        <default>false</default>
+        <label>Fence Panel - Undamaged</label>
+    </customValue>
+    <customValue>
+        <fullName>Fire Surround/Mantle</fullName>
+        <default>false</default>
+        <label>Fire Surround/Mantle</label>
+    </customValue>
+    <customValue>
+        <fullName>Fridge/ Freezer (Domestic/Empty)</fullName>
+        <default>false</default>
+        <label>Fridge/ Freezer (Domestic/Empty)</label>
+    </customValue>
+    <customValue>
+        <fullName>Garden Chair</fullName>
+        <default>false</default>
+        <label>Garden Chair</label>
+    </customValue>
+    <customValue>
+        <fullName>Garden Fork</fullName>
+        <default>false</default>
+        <label>Garden Fork</label>
+    </customValue>
+    <customValue>
+        <fullName>Garden Spade</fullName>
+        <default>false</default>
+        <label>Garden Spade</label>
+    </customValue>
+    <customValue>
+        <fullName>Garden Table</fullName>
+        <default>false</default>
+        <label>Garden Table</label>
+    </customValue>
+    <customValue>
+        <fullName>Iron</fullName>
+        <default>false</default>
+        <label>Iron</label>
+    </customValue>
+    <customValue>
+        <fullName>Ironing Board</fullName>
+        <default>false</default>
+        <label>Ironing Board</label>
+    </customValue>
+    <customValue>
+        <fullName>Item of wood</fullName>
+        <default>false</default>
+        <label>Item of wood</label>
+    </customValue>
+    <customValue>
+        <fullName>Kettle</fullName>
+        <default>false</default>
+        <label>Kettle</label>
+    </customValue>
+    <customValue>
+        <fullName>Ladder</fullName>
+        <default>false</default>
+        <label>Ladder</label>
+    </customValue>
+    <customValue>
+        <fullName>Laminate Flooring</fullName>
+        <default>false</default>
+        <label>Laminate Flooring</label>
+    </customValue>
+    <customValue>
+        <fullName>Lawnmower</fullName>
+        <default>false</default>
+        <label>Lawnmower</label>
+    </customValue>
+    <customValue>
+        <fullName>Lino</fullName>
+        <default>false</default>
+        <label>Lino</label>
+    </customValue>
+    <customValue>
+        <fullName>Mattress (double)</fullName>
+        <default>false</default>
+        <label>Mattress (double)</label>
+    </customValue>
+    <customValue>
+        <fullName>Mattress (single)</fullName>
+        <default>false</default>
+        <label>Mattress (single)</label>
+    </customValue>
+    <customValue>
+        <fullName>Office Chair</fullName>
+        <default>false</default>
+        <label>Office Chair</label>
+    </customValue>
+    <customValue>
+        <fullName>Pet Cage</fullName>
+        <default>false</default>
+        <label>Pet Cage</label>
+    </customValue>
+    <customValue>
+        <fullName>Picture Frame</fullName>
+        <default>false</default>
+        <label>Picture Frame</label>
+    </customValue>
+    <customValue>
+        <fullName>Radiator</fullName>
+        <default>false</default>
+        <label>Radiator</label>
+    </customValue>
+    <customValue>
+        <fullName>Radio/Hifi/Stereo</fullName>
+        <default>false</default>
+        <label>Radio/Hifi/Stereo</label>
+    </customValue>
+    <customValue>
+        <fullName>Satellite Dish</fullName>
+        <default>false</default>
+        <label>Satellite Dish</label>
+    </customValue>
+    <customValue>
+        <fullName>Shelf</fullName>
+        <default>false</default>
+        <label>Shelf</label>
+    </customValue>
+    <customValue>
+        <fullName>Sink</fullName>
+        <default>false</default>
+        <label>Sink</label>
+    </customValue>
+    <customValue>
+        <fullName>Small Garden Gate</fullName>
+        <default>false</default>
+        <label>Small Garden Gate</label>
+    </customValue>
+    <customValue>
+        <fullName>Sofa/armchair: 1 seat</fullName>
+        <default>false</default>
+        <label>Sofa/armchair: 1 seat</label>
+    </customValue>
+    <customValue>
+        <fullName>Sofa/armchair: Corner</fullName>
+        <default>false</default>
+        <label>Sofa/armchair: Corner</label>
+    </customValue>
+    <customValue>
+        <fullName>Sofa/armchair: 2 seats</fullName>
+        <default>false</default>
+        <label>Sofa/armchair: 2 seats</label>
+    </customValue>
+    <customValue>
+        <fullName>Sofa/armchair: 3 seats</fullName>
+        <default>false</default>
+        <label>Sofa/armchair: 3 seats</label>
+    </customValue>
+    <customValue>
+        <fullName>Stackable Chairs</fullName>
+        <default>false</default>
+        <label>Stackable Chairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Storage Heater</fullName>
+        <default>false</default>
+        <label>Storage Heater</label>
+    </customValue>
+    <customValue>
+        <fullName>Storage Unit</fullName>
+        <default>false</default>
+        <label>Storage Unit</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunbed</fullName>
+        <default>false</default>
+        <label>Sunbed</label>
+    </customValue>
+    <customValue>
+        <fullName>Toaster</fullName>
+        <default>false</default>
+        <label>Toaster</label>
+    </customValue>
+    <customValue>
+        <fullName>Toilet</fullName>
+        <default>false</default>
+        <label>Toilet</label>
+    </customValue>
+    <customValue>
+        <fullName>Tumble Dryer</fullName>
+        <default>false</default>
+        <label>Tumble Dryer</label>
+    </customValue>
+    <customValue>
+        <fullName>TV Aerial</fullName>
+        <default>false</default>
+        <label>TV Aerial</label>
+    </customValue>
+    <customValue>
+        <fullName>Television</fullName>
+        <default>false</default>
+        <label>Television</label>
+    </customValue>
+    <customValue>
+        <fullName>Underlay</fullName>
+        <default>false</default>
+        <label>Underlay</label>
+    </customValue>
+    <customValue>
+        <fullName>Vacuum Cleaner/Hoover</fullName>
+        <default>false</default>
+        <label>Vacuum Cleaner/Hoover</label>
+    </customValue>
+    <customValue>
+        <fullName>Wardrobe: fitted</fullName>
+        <default>false</default>
+        <label>Wardrobe: fitted</label>
+    </customValue>
+    <customValue>
+        <fullName>Wardrobe: freestanding</fullName>
+        <default>false</default>
+        <label>Wardrobe: freestanding</label>
+    </customValue>
+    <customValue>
+        <fullName>Washing Machine</fullName>
+        <default>false</default>
+        <label>Washing Machine</label>
+    </customValue>
+    <customValue>
+        <fullName>Wooden Fence Post</fullName>
+        <default>false</default>
+        <label>Wooden Fence Post</label>
+    </customValue>
+    <customValue>
+        <fullName>Other (please provide details below)</fullName>
+        <default>false</default>
+        <label>Other (please provide details below)</label>
+    </customValue>
+    <masterLabel>Bulky Collection Items</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,121 @@
+<aura:component controller="RCCBulkyController" implements="lightning:availableForFlowScreens" access="global">
+
+    <aura:attribute name="selectedBulkyDate" type="String" description="Returns the ID of selected Date" access="global"/>
+    <aura:attribute name="Assisted" type="String" access="global"/>
+    <aura:attribute name="selectedAssisted" type="Boolean" access="global"/>
+	<aura:attribute name="viewOnly"  type="Boolean" default="false" access="global"/>
+    <aura:attribute name="bulkyDates" type="List" access="global"/>
+
+    <aura:handler name="init" value="{!this}" action="{!c.DoInit}"/>
+   
+    
+    
+    
+    <lightning:card title="Bulky Collection Dates" iconName="standard:event">
+        <div class="slds-page-header" role="banner">
+            <aura:if isTrue="{!v.selectedAssisted}">
+		        <p class="slds-text-heading_label">Available Assisted Collection Dates</p>
+			<aura:set attribute="else">
+		        <p class="slds-text-heading_label">Available Dates</p>
+    	    </aura:set>
+            </aura:if>
+    
+	    </div>
+    
+    
+<table class="slds-table slds-table_bordered slds-max-medium-table_stacked-horizontal">
+<thead>
+<tr class="slds-text-title_caps">
+<th scope="col">
+<div class="slds-truncate" title="Date">Date</div>
+</th>
+<!--    
+<th scope="col">
+<div class="slds-truncate" title="Slots">Current Used Slots</div>
+</th>
+<th scope="col">
+<div class="slds-truncate" title="Slots">Current Used Assisted Slots</div>
+</th>
+-->
+    <th scope="col">
+<div class="slds-truncate" title="Option">Option</div>
+</th>
+    </tr>
+</thead>
+
+        
+<tbody>
+<aura:iteration items="{!v.bulkyDates}" var="bulky">
+    <tr class="slds-hint-parent">
+ 	   <th scope="row" data-label="Date">
+    		<div class="slds-truncate" title="Date"><lightning:formattedDateTime  title="Case Opened" year="numeric" month="short" day="2-digit" weekday="long" value="{!bulky.Collection_Date__c}" /></div>
+    	</th>
+<!--    
+ 	   <th scope="row" data-label="Slots">
+    		<div class="slds-truncate" title="Slots">{!bulky.Number_of_Filled_Slots__c}</div>
+    	</th>
+ 	   <th scope="row" data-label="Slots">
+    		<div class="slds-truncate" title="Slots">{!bulky.Number_of_Assisted_Visits__c}</div>
+    	</th>
+-->
+        <td data-label="More Details">
+    		<div class="slds-truncate" title="">
+
+            <aura:if isTrue="{!v.viewOnly}">
+                <aura:if isTrue="{!bulky.Number_of_Filled_Slots__c >= bulky.Maximum_Normal_Collections__c}">
+                   Sorry this collection date is not available for a standard Collection.<br/>
+                    <aura:set attribute="else">
+                        <b>Collection date is available for standard Collection.</b><br/>
+                    </aura:set>
+                </aura:if>
+                <aura:if isTrue="{!bulky.Number_of_Assisted_Visits__c >= bulky.Maximum_Assisted_Collections__c}">
+                    Sorry this collection date is not available for an Assisted Collection.<br/>
+                    <aura:set attribute="else">
+                        <b>Collection date is available for an Assisted Collection.</b><br/>
+                    </aura:set>
+                </aura:if>
+            <aura:set attribute="else">
+                <aura:if isTrue="{!v.selectedAssisted}">   
+                    <aura:if isTrue="{!bulky.Number_of_Assisted_Visits__c >= bulky.Maximum_Assisted_Collections__c}">
+                        Sorry this collection date is not available for an Assisted Collection.
+                        <aura:set attribute="else">
+                            <lightning:button variant="brand" label="Select Assisted Collection Date" title="Select This Date" name="{!bulky.Id}" onclick="{! c.handleClick }" />
+                        </aura:set>
+                    </aura:if>
+                    <aura:set attribute="else">
+                        <aura:if isTrue="{!bulky.Number_of_Filled_Slots__c >= bulky.Maximum_Normal_Collections__c}">
+                            Sorry this collection date is not available.
+                            <aura:set attribute="else">
+                                <lightning:button variant="brand" label="Select This Date" title="Select This Date" name="{!bulky.Id}" onclick="{! c.handleClick }" />
+                            </aura:set>
+                        </aura:if>
+                    </aura:set>
+                </aura:if>
+             </aura:set>
+           </aura:if>
+        </div>
+    	</td>    
+    </tr>
+  </aura:iteration>
+
+    <tr class="slds-hint-parent">
+ 	   <th scope="row" data-label="Date">
+    		<div class="slds-truncate" title="Date"></div>
+    	</th>
+<!--
+     <th scope="row" data-label="Slots">
+    		<div class="slds-truncate" title="Slots"></div>
+    	</th>
+-->
+        <td data-label="More Details">
+    		<div class="slds-truncate" title="">
+                <lightning:button variant="brand" label="No Suitable Dates" title="Select This Date" name="No Suitable Dates" onclick="{! c.handleClick }" />
+            </div>
+    	</td>    
+    </tr>
+
+    </tbody>
+</table>      
+   
+    </lightning:card>
+</aura:component>
